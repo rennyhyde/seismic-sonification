@@ -1,1 +1,2 @@
-Seismic sonification
+Dependencies:
+- Pandas
