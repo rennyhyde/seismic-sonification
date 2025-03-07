@@ -60,5 +60,5 @@ for index, row in df.iterrows():
     motifs[row['along-strike-id(1-88)']].play(mf, row['playback-time'].total_seconds(), 0)    
 
 # print(mf)
-with open("output.mid", 'wb') as outf:
+with open("output_motifs.mid", 'wb') as outf:
     mf.writeFile(outf)
